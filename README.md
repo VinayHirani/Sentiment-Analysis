@@ -9,6 +9,9 @@ AFter my pre processing i have included a file named books_smalls_10000.json in 
 
 ### Model 
 For this classification task i have used SVM(Support Vectors Machine) Classifier which seems to be the best option for this task. The vectorization i have used first was **Bag of Words** which gave me a decent f1 score , but on further testing i found **TFIDF Vectorizer** to be more apt as it gave me a better F1 score of 0.80582524,  0.80952381 for **Positive** & **Negative** Sentiments.
+Although not a bad f1 score the model can be improved firther by removal of punctuation and different vectorization methods 
+
+
 
 
 
